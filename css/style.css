@@ -1,0 +1,132 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: rgb(52, 58, 64);
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: rgb(245, 245, 245);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 960px;
+  box-shadow: 0px 5px 20px 0px rgba(52, 58, 64, 0.06);
+}
+
+.header {
+  background-color: rgb(235, 63, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.header-profile1-jpg {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.header-profile {
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+}
+
+.header-profile h1 {
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+.header-profile div {
+  letter-spacing: 1px;
+}
+
+.info {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  height: 390px;
+  padding: 35px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.info-picture {
+  height: 100%;
+  width: 60%;
+  margin-right: 15px;
+}
+
+.info-content {
+  width: 50%;
+}
+
+
+.info h2 {
+  margin: 0;
+}
+
+.info-headline span {
+  color: rgb(235, 63, 51);
+}
+.signatur {
+  color: rgb(235, 63, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-contact {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-contact-btn {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: rgb(18, 210, 56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.info-contact-btn img {
+  width: 22px;
+  margin-right: 8px;
+  color: rgb(235, 63, 51);
+}
+
+.info-contact-social {
+  background-color: rgb(74, 16, 183);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 8px;
+  border-radius: 50%;
+}
+
+.info-contact-social img {
+  height: 13px;
+}
